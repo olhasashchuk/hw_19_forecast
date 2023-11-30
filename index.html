@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="container">
+    <h1 class="subtitle">Copenhagen</h1>
+    <section class="date">
+        <div class="date__inner">
+            <div class="date__inner-date" id="date"></div>
+            <div class="date__inner-time" id="time"></div>
+        </div>
+        <div class="date__image" id="contentImg"></div>
+    </section>
+    <section class="weather">
+        <ul class="weather__inner">
+            <li class="weather__inner-humidity" id="humidity"></li>
+            <li id="pressure"></li>
+            <li class="weather__inner-wind" id="wind"></li>
+        </ul>
+        <div class="weather__temper">
+            <ul>
+                <li class="weather__temper-temp" id="temp"></li>
+                <li id="tempFeels"></li>
+                <li class="weather__temper-descrip" id="descrip"></li>
+            </ul>
+            <div class="weather__update">
+                <p id="dateGetWeather"></p>
+                <button>Update</button>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
